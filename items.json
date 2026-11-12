@@ -27,6 +27,138 @@
       "memo": "背筋が伸びて、頭が少し真っ白になる感じ。体が「もう緊張を解いていい」と感じる時間。",
       "use": "体",
       "sub": "ととのえる"
+    },
+    {
+      "slug": "mahjong",
+      "title": "麻雀大会に参加した",
+      "use": "人づきあい",
+      "sub": "遊ぶ"
+    },
+    {
+      "slug": "book-club",
+      "title": "読書会に参加した",
+      "use": "学び",
+      "sub": "学びの場に行く"
+    },
+    {
+      "slug": "rakugo",
+      "title": "落語をみた",
+      "use": "気持ち",
+      "sub": "お笑い・演芸"
+    },
+    {
+      "slug": "manzai",
+      "title": "漫才をみた",
+      "use": "気持ち",
+      "sub": "お笑い・演芸"
+    },
+    {
+      "slug": "night-cruise",
+      "title": "夜景クルーズに参加した",
+      "use": "旅と持ち物",
+      "sub": "出かける"
+    },
+    {
+      "slug": "champagne-tower",
+      "title": "シャンパンタワーをやった",
+      "use": "人づきあい",
+      "sub": "祝う"
+    },
+    {
+      "slug": "todai",
+      "title": "東大に行った",
+      "use": "学び",
+      "sub": "学びの場に行く"
+    },
+    {
+      "slug": "escape-game",
+      "title": "脱出ゲームをやった",
+      "use": "人づきあい",
+      "sub": "遊ぶ"
+    },
+    {
+      "slug": "night-museum",
+      "title": "ナイトミュージアムへ行った",
+      "use": "学び",
+      "sub": "展示を見る"
+    },
+    {
+      "slug": "garlic",
+      "title": "にんにく専門店へ行った",
+      "use": "食べる",
+      "sub": "外食"
+    },
+    {
+      "slug": "wolfgang",
+      "title": "ウルフギャングでステーキを食べた",
+      "use": "食べる",
+      "sub": "外食"
+    },
+    {
+      "slug": "tombolo",
+      "title": "トンボロを歩いた",
+      "use": "旅と持ち物",
+      "sub": "出かける"
+    },
+    {
+      "slug": "board-game",
+      "title": "ボードゲームをやった",
+      "use": "人づきあい",
+      "sub": "遊ぶ"
+    },
+    {
+      "slug": "spanish-talk",
+      "title": "スペイン人と話した",
+      "use": "人づきあい",
+      "sub": "人と話す"
+    },
+    {
+      "slug": "swedish-talk",
+      "title": "スウェーデン人と話した",
+      "use": "人づきあい",
+      "sub": "人と話す"
+    },
+    {
+      "slug": "fuji",
+      "title": "富士山に登った",
+      "use": "体",
+      "sub": "登る"
+    },
+    {
+      "slug": "tower-mansion",
+      "title": "タワマンに行った",
+      "use": "住む",
+      "sub": "住まいを見る"
+    },
+    {
+      "slug": "immersive-theater",
+      "title": "体験型演劇へ参加した",
+      "use": "気持ち",
+      "sub": "演劇"
+    },
+    {
+      "slug": "misia-live",
+      "title": "MISIAのライブへ行った",
+      "use": "気持ち",
+      "sub": "音楽"
+    },
+    {
+      "slug": "murder-mystery",
+      "title": "マーダーミステリーをした",
+      "use": "人づきあい",
+      "sub": "遊ぶ"
+    },
+    {
+      "slug": "adult-class",
+      "title": "大人になって授業を受けた",
+      "use": "学び",
+      "sub": "学びの場に行く"
+    },
+    {
+      "slug": "life-talk",
+      "title": "人生について語った",
+      "use": "人づきあい",
+      "sub": "人と話す"
     }
   ],
   "wants": [
@@ -157,8 +289,11 @@
       "en": "LEARNING",
       "icon": "book",
       "ref": "../life-hacks/#learn",
-      "subs": [],
-      "n": 0
+      "subs": [
+        "学びの場に行く",
+        "展示を見る"
+      ],
+      "n": 4
     },
     {
       "name": "発想",
@@ -173,8 +308,10 @@
       "en": "HOME",
       "icon": "home",
       "ref": "../life-hacks/#home",
-      "subs": [],
-      "n": 0
+      "subs": [
+        "住まいを見る"
+      ],
+      "n": 1
     },
     {
       "name": "着る",
@@ -189,8 +326,10 @@
       "en": "FOOD",
       "icon": "meal",
       "ref": "../life-hacks/#food",
-      "subs": [],
-      "n": 0
+      "subs": [
+        "外食"
+      ],
+      "n": 2
     },
     {
       "name": "体",
@@ -199,9 +338,10 @@
       "ref": "../life-hacks/#health",
       "subs": [
         "走る",
-        "ととのえる"
+        "ととのえる",
+        "登る"
       ],
-      "n": 2
+      "n": 3
     },
     {
       "name": "眠り",
@@ -232,16 +372,22 @@
       "en": "TRAVEL",
       "icon": "bag",
       "ref": "../life-hacks/#travel",
-      "subs": [],
-      "n": 0
+      "subs": [
+        "出かける"
+      ],
+      "n": 2
     },
     {
       "name": "気持ち",
       "en": "MOOD",
       "icon": "heart",
       "ref": "../life-hacks/#mood",
-      "subs": [],
-      "n": 0
+      "subs": [
+        "お笑い・演芸",
+        "音楽",
+        "演劇"
+      ],
+      "n": 4
     },
     {
       "name": "頭の中",
@@ -258,8 +404,12 @@
       "en": "PEOPLE",
       "icon": "people",
       "ref": "../life-hacks/#people",
-      "subs": [],
-      "n": 0
+      "subs": [
+        "遊ぶ",
+        "祝う",
+        "人と話す"
+      ],
+      "n": 8
     },
     {
       "name": "備え",

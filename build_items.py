@@ -38,6 +38,28 @@ ROWS = """
 m-note|頭の中を、ホームページにした|2026|考えていること、興味のあること、世界の捉え方を見える形に。それがこの m-note になった。||../about/
 slow-run|会話できる速さで走りはじめた|2026|追い込まず、苦しくなったら歩く。長く動き続ける感覚を育てる。||../musings/posts/p051.html
 sauna|サウナと外気浴で、ほどける|2026|||../musings/posts/p082.html
+mahjong|麻雀大会に参加した||||
+book-club|読書会に参加した||||
+rakugo|落語をみた||||
+manzai|漫才をみた||||
+night-cruise|夜景クルーズに参加した||||
+champagne-tower|シャンパンタワーをやった||||
+todai|東大に行った||||
+escape-game|脱出ゲームをやった||||
+night-museum|ナイトミュージアムへ行った||||
+garlic|にんにく専門店へ行った||||
+wolfgang|ウルフギャングでステーキを食べた||||
+tombolo|トンボロを歩いた||||
+board-game|ボードゲームをやった||||
+spanish-talk|スペイン人と話した||||
+swedish-talk|スウェーデン人と話した||||
+fuji|富士山に登った||||
+tower-mansion|タワマンに行った||||
+immersive-theater|体験型演劇へ参加した||||
+misia-live|MISIAのライブへ行った||||
+murder-mystery|マーダーミステリーをした||||
+adult-class|大人になって授業を受けた||||
+life-talk|人生について語った||||
 """
 
 # またやりたいこと。ここに載せた分だけ picks.html に出る。
@@ -74,21 +96,33 @@ USES = """
 時間|TIME|clock|../life-hacks/#time
 集中|FOCUS|target|../life-hacks/#focus
 学び|LEARNING|book|../life-hacks/#learn
+  学びの場に行く|book-club,adult-class,todai
+  展示を見る|night-museum
 発想|IDEAS|bulb|../life-hacks/#ideas
 住む|HOME|home|../life-hacks/#home
+  住まいを見る|tower-mansion
 着る|CLOTHES|shirt|../life-hacks/#clothes
 食べる|FOOD|meal|../life-hacks/#food
+  外食|garlic,wolfgang
 体|BODY|pulse|../life-hacks/#health
   走る|slow-run
   ととのえる|sauna
+  登る|fuji
 眠り|SLEEP|bed|../life-hacks/#sleep
 おかね|MONEY|card|../life-hacks/#money
 デジタル|DIGITAL|laptop|../life-hacks/#digital
 旅と持ち物|TRAVEL|bag|../life-hacks/#travel
+  出かける|night-cruise,tombolo
 気持ち|MOOD|heart|../life-hacks/#mood
+  お笑い・演芸|rakugo,manzai
+  音楽|misia-live
+  演劇|immersive-theater
 頭の中|MIND|brain|../life-hacks/#mind
   書いて外に出す|m-note
 人づきあい|PEOPLE|people|../life-hacks/#people
+  遊ぶ|mahjong,board-game,escape-game,murder-mystery
+  祝う|champagne-tower
+  人と話す|spanish-talk,swedish-talk,life-talk
 備え|READY|shield|../life-hacks/#ready
 """
 
